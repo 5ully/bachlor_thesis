@@ -1,0 +1,5 @@
+"TOA5","HVL","CR1000","E11924","CR1000.Std.16","CPU:Promice2015e.CR1","65241","InstantaneousTable"
+"TIMESTAMP","RECORD","SnowHeight","SurfaceHeight","IceHeight","TemperatureIce1m","TemperatureIce2m","TemperatureIce3m","TemperatureIce4m","TemperatureIce5m","TemperatureIce6m","TemperatureIce7m","TemperatureIce10m","TiltX","TiltY","TimeGPS","Latitude","Longitude","Altitude","HDOP","FanCurrent","VoltageBatteries","AirPressureMinus1000","Temperature","RelativeHumidity","WindSpeed_WVc(1)","WindSpeed_WVc(2)","InstantDataTerminator"
+"TS","RN","m","m","mV","C","C","C","C","C","C","C","C","Vx10^-2","Vx10^-2","","","","","","mA","V","hPa","C","%","m/s","m/s",""
+"","","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","Smp","WVc","WVc","Smp"
+"2021-02-09 00:00:00",1395,2.813,"NAN",0.24,-99.2,-11.6,-12.15,-11.21,-10.69,-10.68,-10.34,-11.17,0.024,-0.241,"GT215758.00","NH6113.00976","EH00700.68790","721.0","0.79",133.1,13.1,-63.41,-10.06,49.71,1.01,83.9,"!I"

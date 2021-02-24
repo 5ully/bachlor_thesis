@@ -1,0 +1,2430 @@
+<?xml version='1.0'?>
+<lgrnet-config last-backup="1990-01-01T00:00:00" last-device-id="3">
+  <settings>
+    <setting id="1">1</setting>
+    <setting bale-count="5" bale-size="1440000" id="2" to-disc="true" />
+    <setting bale-count="5" bale-size="1440000" id="3" to-disc="true" />
+    <setting bale-count="5" bale-size="1440000" id="4" to-disc="true" />
+    <setting bale-count="5" bale-size="1440000" id="5" to-disc="true" />
+    <setting id="6">1</setting>
+    <setting id="7">1</setting>
+    <setting id="9">2</setting>
+    <setting id="11">4092</setting>
+    <setting id="12">0</setting>
+    <setting id="13">0</setting>
+    <setting id="14">fca7daa6a5054b288c9c57dfb01bdd99</setting>
+    <setting bale-count="5" bale-size="1200000" id="15" to-disc="true" />
+    <setting id="16">0</setting>
+    <setting id="17">1990-01-01T00:00:00</setting>
+    <setting id="18">604800000</setting>
+    <setting id="19">1</setting>
+    <setting id="20" />
+    <setting id="21">%a\loggernet.bkp</setting>
+    <setting id="22">5</setting>
+    <setting id="23">900000</setting>
+    <setting id="24">C:\Campbellsci\PC200W\sys\bin</setting>
+    <setting id="25">C:\Campbellsci\PC200W\</setting>
+    <setting id="26">92</setting>
+    <setting id="27" />
+    <setting id="28">0</setting>
+    <setting base="0" enabled="false" id="29" interval="86400000" max-dev="10000" />
+    <setting base="1990-01-01T00:00:00" id="30" interval="300000" is-on="false" prim-retry-interval="120000" prim-retry-max_count="3" sec-retry-interval="86400000" />
+    <setting id="31">1</setting>
+    <setting id="32">0</setting>
+    <setting id="33">0</setting>
+    <setting id="34">1</setting>
+    <setting id="35">0</setting>
+    <setting id="36">0</setting>
+    <setting id="37">2</setting>
+    <setting id="38">10485760</setting>
+    <setting id="39">2</setting>
+    <setting id="40">1</setting>
+    <setting id="41">0</setting>
+    <setting id="42">3600000</setting>
+    <setting id="43" />
+    <setting id="44">0</setting>
+    <setting id="45">1</setting>
+    <setting id="46">2</setting>
+    <setting id="47">1</setting>
+    <setting id="48">1</setting>
+    <setting id="49">2</setting>
+    <setting id="50">2</setting>
+    <setting id="51">2</setting>
+    <setting id="52">%a\%s_%n.dat</setting>
+    <setting id="53">1</setting>
+    <setting id="54">1</setting>
+    <setting id="55">1</setting>
+    <setting id="56">1</setting>
+    <setting id="57">3</setting>
+    <setting id="58">6619599</setting>
+    <setting id="59">3</setting>
+    <setting id="60">3</setting>
+    <setting id="61">3</setting>
+    <setting id="62">3</setting>
+    <setting id="63">1</setting>
+    <setting id="64">-1</setting>
+    <setting id="65">0</setting>
+    <setting id="69">86400000</setting></settings>
+  <data-brokers>
+    <data-broker broker-version="1" creation-date="20210224 20:36:10.574" id="2" model-no="CR1000" name="HVL" os-version="CR1000.Std.16" program-name="CPU:Promice2015e.CR1" program-sig="65241" serial-no="E11924" type="1">
+      <table crc="1428229951" interval="0" name="InstantaneousTable" only-in-memory="false" orig-size="1" should-sort-pieces="true" size="2">
+        <column data-type="7" description="Smp" modifying-command="0" name="SnowHeight" process="Smp" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SurfaceHeight" process="Smp" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="IceHeight" process="Smp" units="mV">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce1m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce2m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce3m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce4m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce5m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce6m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce7m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TemperatureIce10m" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="11" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TiltX" process="Smp" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="12" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="TiltY" process="Smp" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="13" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="TimeGPS" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="14" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Latitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="15" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Longitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="16" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Altitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="17" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="HDOP" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="18" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="FanCurrent" process="Smp" units="mA">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="19" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="VoltageBatteries" process="Smp" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="20" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="AirPressureMinus1000" process="Smp" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="21" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="Temperature" process="Smp" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="22" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="RelativeHumidity" process="Smp" units="%">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="23" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindSpeed_WVc" process="WVc" units="m/s">
+          <dimensions>
+            <dim val="2" /></dimensions>
+          <pieces>
+            <piece count="2" native-order="24" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="InstantDataTerminator" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="25" start-index="1" /></pieces></column></table>
+      <table crc="4249118138" interval="0" name="Public" only-in-memory="false" orig-size="1" should-sort-pieces="true" size="2">
+        <column data-type="9" description="" modifying-command="276" name="AirPressure" process="" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Temperature" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Temperature2" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="RelativeHumidity" process="" units="%">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="WindSpeed" process="" units="m/s">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="WindDirection" process="" units="degrees">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="ShortwaveRadiationIn" process="" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="ShortwaveRadiationOut" process="" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="LongwaveRadiationIn" process="" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="LongwaveRadiationOut" process="" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureRadSensor" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="11" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SnowHeight" process="" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="12" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SnowHeightQuality" process="" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="13" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SurfaceHeight" process="" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="14" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SurfaceHeightQuality" process="" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="15" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="IceHeight" process="" units="mV">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="16" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce1m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="17" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce2m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="18" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce3m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="19" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce4m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="20" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce5m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="21" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce6m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="22" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce7m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="23" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureIce10m" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="24" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TiltX" process="" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="25" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TiltY" process="" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="26" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TemperatureLogger" process="" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="27" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="BatteryCurrent" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="28" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SolarPanelCurrent" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="29" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="FanCurrent" process="" units="mA">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="30" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxGPSCurrent" process="" units="mA">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="31" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="VoltageBatteries" process="" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="32" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GPGGA" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="33" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="TimeGPS" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="34" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Latitude" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="35" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="HemisphereNS" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="36" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Longitude" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="37" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="HemisphereEW" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="38" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Quality" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="39" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="NumberSatellites" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="40" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="HDOP" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="41" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Altitude" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="42" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="AltitudeUnit" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="43" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Giodal" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="44" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GeoUnit" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="45" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Age" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="46" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Difref" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="47" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Asterisk" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="48" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Chcksum" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="49" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="CRLF" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="50" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="FastScanMode" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="51" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="FastScanSwitch" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="52" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="FastScanCount" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="53" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="LastFastScan" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="54" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="AirPressureMinus1000" process="" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="55" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="VoltageBatteriesIni" process="" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="56" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="WinterDataTerminator" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="57" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="SummerDataTerminator" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="58" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="InstantDataTerminator" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="59" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="DiagnDataTerminator" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="60" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxAllowed" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="61" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="FanPowerDueForSwOff" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="62" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="TableInstantaneousString" process="" units="">
+          <dimensions>
+            <dim val="304" /></dimensions>
+          <pieces>
+            <piece count="304" native-order="63" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxPowerDueForSwOff" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="64" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="GarminInitOk" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="65" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="ConfigFile_H" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="66" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="ConfigArrayIT" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="67" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="NGPSFLAG" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="68" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="GGPSFLAG" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="69" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="ForceTX" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="70" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="LoggerOSrev" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="71" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TimersUnit" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="72" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TimersUnitMult" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="73" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Diag" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="74" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SkippedScans" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="75" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SkippedSlowScans1" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="76" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SkippedSlowScans2" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="77" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GPSinUse" process="" units="">
+          <dimensions>
+            <dim val="4" /></dimensions>
+          <pieces>
+            <piece count="4" native-order="78" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TimeSince12Von" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="79" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TimeSinceVx3on" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="80" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="LastSuccessfulMOMSN" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="81" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SendRecordBacklog" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="82" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SendRecordIT" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="83" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxTimeTaken" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="84" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxSendAttempts" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="85" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxTimeoutTimer" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="86" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxInitilizeAttempt" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="87" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SBDIoffset" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="88" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="SBDIsentence" process="" units="">
+          <dimensions>
+            <dim val="44" /></dimensions>
+          <pieces>
+            <piece count="44" native-order="89" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="SBDIparsed" process="" units="">
+          <dimensions>
+            <dim val="6" />
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="96" native-order="90" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="SBDsession" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="91" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxInitializeOk" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="92" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="StrIndex" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="93" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxSendSuccess" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="94" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SentWithSuccess" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="95" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxMObuffCleared" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="96" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxMOuploaded" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="97" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxRSSI" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="98" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxSvcAvail" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="99" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxNotifyON" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="100" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="RS232EchoOk" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="101" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxTypeNAL960x" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="102" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxTypeNAL9601DGSLP" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="103" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxTypeNAL9602LP" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="104" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxModuleATok" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="105" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxModuleRFon" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="106" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="TxModuleReply" process="" units="">
+          <dimensions>
+            <dim val="44" /></dimensions>
+          <pieces>
+            <piece count="44" native-order="107" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="ResetTxBufferTableDue" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="108" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="TxModuleGPSPowerOn" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="109" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="TxBufferString" process="" units="">
+          <dimensions>
+            <dim val="432" /></dimensions>
+          <pieces>
+            <piece count="432" native-order="110" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="TxStringUnstripped" process="" units="">
+          <dimensions>
+            <dim val="432" /></dimensions>
+          <pieces>
+            <piece count="432" native-order="111" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="TxString" process="" units="">
+          <dimensions>
+            <dim val="344" /></dimensions>
+          <pieces>
+            <piece count="344" native-order="112" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="StringStripperIT" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="113" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="StripStringStart" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="114" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="StringChar" process="" units="">
+          <dimensions>
+            <dim val="4" /></dimensions>
+          <pieces>
+            <piece count="4" native-order="115" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="MeasCycleDone" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="116" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="C5status" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="117" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="C5statusPrev" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="118" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="temp" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="119" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="MPFLAG" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="120" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="MinutesInYear" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="121" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Year" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="122" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Month" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="123" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="DayOfMonth" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="124" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Hour" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="125" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Minute" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="126" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="Second" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="127" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="uSecond" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="128" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="WeekDay" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="129" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="DayOfYear" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="130" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="NewClock" process="" units="">
+          <dimensions>
+            <dim val="7" /></dimensions>
+          <pieces>
+            <piece count="7" native-order="131" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GPSTimeStr" process="" units="">
+          <dimensions>
+            <dim val="3" />
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="48" native-order="132" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GPShour" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="133" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GPSminute" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="134" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GPSsecond" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="135" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="ValidGPStime" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="136" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="Clock2GPSOffset" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="137" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GPSmessageTimer" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="138" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="IsSummer" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="139" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="Low_Batt" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="140" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="Asp_fan_on" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="141" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="Aspirated_meas" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="142" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="temptemp" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="143" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="temptemptemp" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="144" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="temp1" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="145" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="_MUXRES" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="146" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="BestHDOPseen" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="147" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="sBestHDOPseen" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="148" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GPGGAsentence" process="" units="">
+          <dimensions>
+            <dim val="76" /></dimensions>
+          <pieces>
+            <piece count="76" native-order="149" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="PreParseStr" process="" units="">
+          <dimensions>
+            <dim val="18" />
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="96" native-order="150" start-index="1" />
+            <piece count="16" native-order="152" start-index="113" />
+            <piece count="144" native-order="154" start-index="145" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="PreQual" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="151" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="PreHDOP" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="153" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="PreQual_FP" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="155" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="PreHDOP_FP" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="156" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="ParseStrIT" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="157" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="TimeStampSeconds" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="158" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="BinFuncIt" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="159" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="StriValueIt" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="160" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="DecimalFPNumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="161" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="InternalDecimalFPNumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="162" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="NormDecimalNumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="163" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GFP2bits" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="164" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GFP2sign" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="165" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GFP2exp" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="166" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="GFP2normexp" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="167" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="GFP2mant" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="168" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="remainder" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="169" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="UnsignizedDecimalNumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="170" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="ShiftedDecimalNumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="171" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="GFP2normalized" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="172" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="GFP2msb" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="173" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="GFP2lsb" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="174" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GFP2string" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="175" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="DecimalLINumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="176" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="InternalDecimalLINumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="177" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="GLI4Bytes" process="" units="">
+          <dimensions>
+            <dim val="4" /></dimensions>
+          <pieces>
+            <piece count="4" native-order="178" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="GLI4string" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="179" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="SplittedTXstring" process="" units="">
+          <dimensions>
+            <dim val="171" />
+            <dim val="24" /></dimensions>
+          <pieces>
+            <piece count="4104" native-order="180" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="BinaryTxString" process="" units="">
+          <dimensions>
+            <dim val="204" /></dimensions>
+          <pieces>
+            <piece count="204" native-order="181" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BinaryTxArray" process="" units="">
+          <dimensions>
+            <dim val="340" /></dimensions>
+          <pieces>
+            <piece count="340" native-order="182" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BinaryTxArrayPointer" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="183" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="ReadableTxString" process="" units="">
+          <dimensions>
+            <dim val="344" /></dimensions>
+          <pieces>
+            <piece count="344" native-order="184" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="StringLong" process="" units="">
+          <dimensions>
+            <dim val="24" /></dimensions>
+          <pieces>
+            <piece count="24" native-order="185" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="LongLong" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="186" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="StringLongInt" process="" units="">
+          <dimensions>
+            <dim val="24" /></dimensions>
+          <pieces>
+            <piece count="24" native-order="187" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="TxStringLen" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="188" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="testcmd" process="" units="">
+          <dimensions>
+            <dim val="24" /></dimensions>
+          <pieces>
+            <piece count="24" native-order="189" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="BinaryTxFormatPrefix" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="190" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BinaryTxSubformatNumber" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="191" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="SerialOutBlockIt" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="192" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="276" name="ChecksumIt" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="193" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BinaryTxStringSum" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="194" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="BinaryTxStringChecksum" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="195" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="dbg_trace_sig" process="" units="">
+          <dimensions>
+            <dim val="84" /></dimensions>
+          <pieces>
+            <piece count="84" native-order="196" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="dbg_trace_sig_bak" process="" units="">
+          <dimensions>
+            <dim val="84" /></dimensions>
+          <pieces>
+            <piece count="84" native-order="197" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="alternativeSR50Address1" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="198" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="alternativeSR50Address2" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="199" start-index="1" /></pieces></column></table>
+      <table crc="1744445452" interval="0" name="SlimTableMem" only-in-memory="false" orig-size="15519" should-sort-pieces="true" size="31038">
+        <column data-type="6" description="Smp" modifying-command="0" name="MinutesInYear" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="AirPressure_Avg" process="Avg" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="Temperature_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="Temperature2_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="RelativeHumidity_Avg" process="Avg" units="%">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindSpeed" process="WVc" units="m/s">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindDirection" process="WVc" units="Deg">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindDirection_SD" process="WVc" units="Deg">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="ShortwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="ShortwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="LongwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="11" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="LongwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="12" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureRadSensor_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="13" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SnowHeight" process="Smp" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="14" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SnowHeightQuality" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="15" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SurfaceHeight" process="Smp" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="16" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SurfaceHeightQuality" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="17" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="IceHeight_Avg" process="Avg" units="mV">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="18" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce1m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="19" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce2m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="20" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce3m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="21" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce4m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="22" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce5m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="23" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce6m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="24" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce7m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="25" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureIce10m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="26" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TiltX_Avg" process="Avg" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="27" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TiltY_Avg" process="Avg" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="28" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="TimeGPS" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="29" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Latitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="30" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Longitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="31" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Altitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="32" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Giodal" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="33" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="GeoUnit" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="34" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Quality" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="35" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="NumberSatellites" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="36" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="HDOP" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="37" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureLogger_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="38" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="FanCurrent_Avg" process="Avg" units="mA">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="39" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="VoltageBatteriesIni" process="Smp" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="40" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="VoltageBatteries" process="Smp" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="41" start-index="1" /></pieces></column></table>
+      <table crc="2179609822" interval="0" name="Status" only-in-memory="false" orig-size="1" should-sort-pieces="true" size="2">
+        <column data-type="11" description="" modifying-command="0" name="OSVersion" process="" units="">
+          <dimensions>
+            <dim val="32" /></dimensions>
+          <pieces>
+            <piece count="32" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="OSDate" process="" units="">
+          <dimensions>
+            <dim val="8" /></dimensions>
+          <pieces>
+            <piece count="8" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="OSSignature" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="SerialNumber" process="" units="">
+          <dimensions>
+            <dim val="8" /></dimensions>
+          <pieces>
+            <piece count="8" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="RevBoard" process="" units="">
+          <dimensions>
+            <dim val="8" /></dimensions>
+          <pieces>
+            <piece count="8" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="StationName" process="" units="">
+          <dimensions>
+            <dim val="64" /></dimensions>
+          <pieces>
+            <piece count="64" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="PakBusAddress" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="ProgName" process="" units="">
+          <dimensions>
+            <dim val="64" /></dimensions>
+          <pieces>
+            <piece count="64" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="14" description="" modifying-command="0" name="StartTime" process="" units="date">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="RunSignature" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="ProgSignature" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="11" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="0" name="Battery" process="" units="Volts">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="12" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="0" name="PanelTemp" process="" units="DegC">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="13" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="WatchdogErrors" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="14" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="0" name="LithiumBattery" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="15" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="Low12VCount" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="16" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="Low5VCount" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="17" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="CompileResults" process="" units="">
+          <dimensions>
+            <dim val="256" /></dimensions>
+          <pieces>
+            <piece count="256" native-order="18" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="StartUpCode" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="19" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="ProgErrors" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="20" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VarOutOfBound" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="21" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="SkippedScan" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="22" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="SkippedSystemScan" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="23" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="ErrorCalib" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="24" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="MemorySize" process="" units="bytes">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="25" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="MemoryFree" process="" units="bytes">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="26" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CPUDriveFree" process="" units="bytes">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="27" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="USRDriveFree" process="" units="bytes">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="28" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommsMemFree" process="" units="bytes">
+          <dimensions>
+            <dim val="2" /></dimensions>
+          <pieces>
+            <piece count="2" native-order="29" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="FullMemReset" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="30" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="DataTableName" process="" units="">
+          <dimensions>
+            <dim val="7" />
+            <dim val="24" /></dimensions>
+          <pieces>
+            <piece count="168" native-order="31" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="SkippedRecord" process="" units="">
+          <dimensions>
+            <dim val="7" /></dimensions>
+          <pieces>
+            <piece count="7" native-order="32" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="DataRecordSize" process="" units="records">
+          <dimensions>
+            <dim val="14" />
+            <dim val="2" /></dimensions>
+          <pieces>
+            <piece count="14" native-order="33" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="0" name="SecsPerRecord" process="" units="">
+          <dimensions>
+            <dim val="7" /></dimensions>
+          <pieces>
+            <piece count="7" native-order="34" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="0" name="DataFillDays" process="" units="days">
+          <dimensions>
+            <dim val="14" />
+            <dim val="2" /></dimensions>
+          <pieces>
+            <piece count="14" native-order="35" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="CardStatus" process="" units="">
+          <dimensions>
+            <dim val="80" /></dimensions>
+          <pieces>
+            <piece count="80" native-order="36" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CardBytesFree" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="37" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="MeasureOps" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="38" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="MeasureTime" process="" units="usec">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="39" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="ProcessTime" process="" units="usec">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="40" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="MaxProcTime" process="" units="usec">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="41" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="BuffDepth" process="" units="scans">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="42" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="MaxBuffDepth" process="" units="scans">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="43" start-index="1" /></pieces></column>
+        <column data-type="14" description="" modifying-command="0" name="LastSystemScan" process="" units="date">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="44" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="SystemProcTime" process="" units="usec">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="45" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="MaxSystemProcTime" process="" units="usec">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="46" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="PortStatus" process="" units="">
+          <dimensions>
+            <dim val="8" /></dimensions>
+          <pieces>
+            <piece count="8" native-order="47" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="PortConfig" process="" units="">
+          <dimensions>
+            <dim val="8" />
+            <dim val="8" /></dimensions>
+          <pieces>
+            <piece count="64" native-order="48" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="SW12Volts" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="49" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="Security" process="" units="">
+          <dimensions>
+            <dim val="3" /></dimensions>
+          <pieces>
+            <piece count="3" native-order="50" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="RS232Power" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="51" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="RS232Handshaking" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="52" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="RS232Timeout" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="53" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveRS232" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="54" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveME" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="55" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveCOM310" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="56" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveSDC7" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="57" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveSDC8" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="58" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveCOM320" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="59" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveSDC10" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="60" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveSDC11" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="61" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveCOM1" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="62" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveCOM2" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="63" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveCOM3" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="64" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="CommActiveCOM4" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="65" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigRS232" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="66" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigME" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="67" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigCOM310" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="68" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigSDC7" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="69" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigSDC8" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="70" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigCOM320" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="71" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigSDC10" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="72" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigSDC11" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="73" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigCOM1" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="74" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigCOM2" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="75" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigCOM3" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="76" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CommConfigCOM4" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="77" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateRS232" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="78" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateME" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="79" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateSDC" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="80" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateCOM1" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="81" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateCOM2" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="82" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateCOM3" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="83" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BaudrateCOM4" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="84" start-index="1" /></pieces></column>
+        <column data-type="31" description="" modifying-command="276" name="IsRouter" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="85" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="PakBusNodes" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="86" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="CentralRouters" process="" units="">
+          <dimensions>
+            <dim val="8" /></dimensions>
+          <pieces>
+            <piece count="8" native-order="87" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconRS232" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="88" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconME" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="89" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconSDC7" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="90" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconSDC8" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="91" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconSDC10" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="92" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconSDC11" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="93" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconCOM1" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="94" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconCOM2" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="95" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconCOM3" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="96" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="BeaconCOM4" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="97" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifyRS232" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="98" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifyME" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="99" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifySDC7" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="100" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifySDC8" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="101" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifySDC10" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="102" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifySDC11" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="103" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifyCOM1" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="104" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifyCOM2" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="105" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifyCOM3" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="106" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="VerifyCOM4" process="" units="Secs">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="107" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="MaxPacketSize" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="108" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="USRDriveSize" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="109" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="0" name="IPInfo" process="" units="">
+          <dimensions>
+            <dim val="256" /></dimensions>
+          <pieces>
+            <piece count="256" native-order="110" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="276" name="pppInterface" process="" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="111" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="pppIPAddr" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="112" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="pppUsername" process="" units="">
+          <dimensions>
+            <dim val="32" /></dimensions>
+          <pieces>
+            <piece count="32" native-order="113" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="pppPassword" process="" units="">
+          <dimensions>
+            <dim val="32" /></dimensions>
+          <pieces>
+            <piece count="32" native-order="114" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="pppDial" process="" units="">
+          <dimensions>
+            <dim val="80" /></dimensions>
+          <pieces>
+            <piece count="80" native-order="115" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="pppDialResponse" process="" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="116" start-index="1" /></pieces></column>
+        <column data-type="11" description="" modifying-command="276" name="Messages" process="" units="">
+          <dimensions>
+            <dim val="256" /></dimensions>
+          <pieces>
+            <piece count="256" native-order="117" start-index="1" /></pieces></column>
+        <column data-type="9" description="" modifying-command="0" name="CalGain" process="" units="">
+          <dimensions>
+            <dim val="18" /></dimensions>
+          <pieces>
+            <piece count="18" native-order="118" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CalSeOffset" process="" units="">
+          <dimensions>
+            <dim val="18" /></dimensions>
+          <pieces>
+            <piece count="18" native-order="119" start-index="1" /></pieces></column>
+        <column data-type="6" description="" modifying-command="0" name="CalDiffOffset" process="" units="">
+          <dimensions>
+            <dim val="18" /></dimensions>
+          <pieces>
+            <piece count="18" native-order="120" start-index="1" /></pieces></column></table>
+      <table crc="3642649686" interval="0" name="TableDiagnostics" only-in-memory="false" orig-size="1949" should-sort-pieces="true" size="3898">
+        <column data-type="7" description="Smp" modifying-command="0" name="LithiumBattery" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="Low12VCount" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="7" description="Tot" modifying-command="0" name="TxInitializeOk_Tot" process="Tot" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SentWithSuccess" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SendRecordBacklog" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="DiagnDataTerminator" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="6" start-index="1" /></pieces></column></table>
+      <table crc="3621430428" interval="0" name="TableMem" only-in-memory="false" orig-size="7860844" should-sort-pieces="true" size="40642">
+        <column data-type="6" description="Smp" modifying-command="0" name="MinutesInYear" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="AirPressure_Avg" process="Avg" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="Temperature_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="Temperature2_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="RelativeHumidity_Avg" process="Avg" units="%">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindSpeed" process="WVc" units="m/s">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindDirection" process="WVc" units="Deg">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindDirection_SD" process="WVc" units="Deg">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="ShortwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="ShortwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="LongwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="11" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="LongwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="12" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureRadSensor_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="13" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SnowHeight" process="Smp" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="14" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SnowHeightQuality" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="15" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SurfaceHeight" process="Smp" units="m">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="16" start-index="1" /></pieces></column>
+        <column data-type="7" description="Smp" modifying-command="0" name="SurfaceHeightQuality" process="Smp" units="">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="17" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="IceHeight_Avg" process="Avg" units="mV">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="18" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce1m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="19" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce2m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="20" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce3m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="21" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce4m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="22" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce5m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="23" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce6m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="24" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce7m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="25" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureIce10m_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="26" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TiltX_Avg" process="Avg" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="27" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TiltY_Avg" process="Avg" units="Vx10^-2">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="28" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="TimeGPS" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="29" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Latitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="30" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Longitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="31" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Altitude" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="32" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Giodal" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="33" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="GeoUnit" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="34" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="Quality" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="35" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="NumberSatellites" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="36" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="HDOP" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="37" start-index="1" /></pieces></column>
+        <column data-type="9" description="Avg" modifying-command="0" name="TemperatureLogger_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="38" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="FanCurrent_Avg" process="Avg" units="mA">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="39" start-index="1" /></pieces></column>
+        <column data-type="9" description="Smp" modifying-command="0" name="VoltageBatteriesIni" process="Smp" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="40" start-index="1" /></pieces></column>
+        <column data-type="9" description="Smp" modifying-command="0" name="VoltageBatteries" process="Smp" units="V">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="41" start-index="1" /></pieces></column></table>
+      <table crc="4133366775" interval="0" name="TableSummerTx" only-in-memory="false" orig-size="1" should-sort-pieces="true" size="2">
+        <column data-type="7" description="Avg" modifying-command="0" name="AirPressure_Avg" process="Avg" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="Temperature_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="Temperature2_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="RelativeHumidity_Avg" process="Avg" units="%">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindSpeed_WVc" process="WVc" units="m/s">
+          <dimensions>
+            <dim val="2" /></dimensions>
+          <pieces>
+            <piece count="2" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="ShortwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="ShortwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="LongwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="LongwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureRadSensor_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="SummerDataTerminator" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="11" start-index="1" /></pieces></column></table>
+      <table crc="1371130633" interval="0" name="TableWinterTx" only-in-memory="false" orig-size="1" should-sort-pieces="true" size="2">
+        <column data-type="7" description="Avg" modifying-command="0" name="AirPressure_Avg" process="Avg" units="hPa">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="1" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="Temperature_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="2" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="Temperature2_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="3" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="RelativeHumidity_Avg" process="Avg" units="%">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="4" start-index="1" /></pieces></column>
+        <column data-type="7" description="WVc" modifying-command="0" name="WindSpeed_WVc" process="WVc" units="m/s">
+          <dimensions>
+            <dim val="2" /></dimensions>
+          <pieces>
+            <piece count="2" native-order="5" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="ShortwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="6" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="ShortwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="7" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="LongwaveRadiationIn_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="8" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="LongwaveRadiationOut_Avg" process="Avg" units="Vx10^-5">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="9" start-index="1" /></pieces></column>
+        <column data-type="7" description="Avg" modifying-command="0" name="TemperatureRadSensor_Avg" process="Avg" units="C">
+          <dimensions />
+          <pieces>
+            <piece count="1" native-order="10" start-index="1" /></pieces></column>
+        <column data-type="11" description="Smp" modifying-command="0" name="WinterDataTerminator" process="Smp" units="">
+          <dimensions>
+            <dim val="16" /></dimensions>
+          <pieces>
+            <piece count="16" native-order="11" start-index="1" /></pieces></column></table>
+      <table crc="2821335565" interval="0" name="TxBufferTable" only-in-memory="false" orig-size="100" should-sort-pieces="true" size="200">
+        <column data-type="11" description="Smp" modifying-command="0" name="TxBufferString" process="Smp" units="">
+          <dimensions>
+            <dim val="432" /></dimensions>
+          <pieces>
+            <piece count="432" native-order="1" start-index="1" /></pieces></column></table>
+    </data-broker>
+  </data-brokers>
+  <devices>
+    <device id="1" level="0" name="COM6" type="11">
+      <class-dev error-rate="0.3697506">
+        <settings>
+          <setting id="2">0</setting>
+          <setting id="3">2048</setting>
+          <setting id="4">0</setting>
+          <setting id="15">COM6</setting>
+          <setting id="22">1</setting>
+          <setting id="36">0</setting>
+          <setting id="69">2000</setting>
+          <setting id="70">115200</setting>
+          <setting id="83">0</setting>
+          <setting id="85">0</setting>
+          <setting id="90" />
+          <setting id="122">0</setting></settings>
+      </class-dev>
+    </device>
+    <device id="2" level="1" name="PakBusPort" type="36">
+      <class-dev error-rate="0.3365796">
+        <settings>
+          <setting id="2">0</setting>
+          <setting id="3">1008</setting>
+          <setting id="4">0</setting>
+          <setting id="22">1</setting>
+          <setting id="70">115200</setting>
+          <setting id="71">0</setting>
+          <setting id="72">1</setting>
+          <setting id="79">4092</setting>
+          <setting id="83">0</setting>
+          <setting id="86">PakBusPort</setting>
+          <setting id="90" />
+          <setting id="93">
+            <range begin="1" end="4094" /></setting>
+          <setting id="95">0</setting>
+          <setting id="109">0</setting>
+          <setting id="116" />
+          <setting id="130" /></settings>
+      </class-dev>
+    </device>
+    <device id="3" level="2" name="HVL" type="44">
+      <class-bmp5-datalogger reported-station-name="" uses-new-control="true">
+        <files-history />
+      </class-bmp5-datalogger>
+      <class-clocked last-check="981727413821000000" last-diff="-128789000000" last-set="0">
+        <history>
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+          <time val="15" />
+        </history>
+      </class-clocked>
+      <class-logger collect-primary-retry-count="0" collect-retry-count="0" collect-state="0" last-collect="981729715983000000" last-collect-attempt="981727450736000000" table-defs-state="2">
+        <collect-areas>
+          <collect-area name="InstantaneousTable" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="31740" previously-polled="false" table-no="7" time-type="14">
+              <tdf-buffer>496e7374616e74616e656f75735461626c6500000000010e0000000000000000000000000000000087536e6f774865696768740000536d70006d00536d700000000001000000010000000087537572666163654865696768740000536d70006d00536d7000000000010000000100000000874963654865696768740000536d70006d5600536d70000000000100000001000000008754656d7065726174757265496365316d0000536d70004300536d70000000000100000001000000008754656d7065726174757265496365326d0000536d70004300536d70000000000100000001000000008754656d7065726174757265496365336d0000536d70004300536d70000000000100000001000000008754656d7065726174757265496365346d0000536d70004300536d70000000000100000001000000008754656d7065726174757265496365356d0000536d70004300536d70000000000100000001000000008754656d7065726174757265496365366d0000536d70004300536d70000000000100000001000000008754656d7065726174757265496365376d0000536d70004300536d70000000000100000001000000008754656d706572617475726549636531306d0000536d70004300536d70000000000100000001000000008754696c74580000536d7000567831305e2d3200536d70000000000100000001000000008754696c74590000536d7000567831305e2d3200536d70000000000100000001000000008b54696d654750530000536d700000536d7000000000010000001000000010000000008b4c617469747564650000536d700000536d7000000000010000001000000010000000008b4c6f6e6769747564650000536d700000536d7000000000010000001000000010000000008b416c7469747564650000536d700000536d7000000000010000001000000010000000008b48444f500000536d700000536d7000000000010000001000000010000000008746616e43757272656e740000536d70006d4100536d700000000001000000010000000087566f6c746167654261747465726965730000536d70005600536d70000000000100000001000000008741697250726573737572654d696e7573313030300000536d700068506100536d70000000000100000001000000008754656d70657261747572650000536d70004300536d70000000000100000001000000008752656c617469766548756d69646974790000536d70002500536d70000000000100000001000000008757696e6453706565645f5756630000575663006d2f730057566300000000010000000200000002000000008b496e7374616e74446174615465726d696e61746f720000536d700000536d70000000000100000010000000100000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="1395" stamp="981676800000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="1395" end="1395" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="InstantaneousTable" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_InstantaneousTable.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_InstantaneousTable.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">7</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_InstantaneousTable.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="Public" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="26676" previously-polled="false" table-no="9" time-type="14">
+              <tdf-buffer>5075626c696300000000010e0000000000000000000000000000000009416972507265737375726500000068506100000000000100000001000000000954656d70657261747572650000004300000000000100000001000000000954656d7065726174757265320000004300000000000100000001000000000952656c617469766548756d69646974790000002500000000000100000001000000000957696e6453706565640000006d2f7300000000000100000001000000000957696e64446972656374696f6e0000006465677265657300000000000100000001000000000953686f727477617665526164696174696f6e496e000000567831305e2d3500000000000100000001000000000953686f727477617665526164696174696f6e4f7574000000567831305e2d350000000000010000000100000000094c6f6e6777617665526164696174696f6e496e000000567831305e2d350000000000010000000100000000094c6f6e6777617665526164696174696f6e4f7574000000567831305e2d3500000000000100000001000000000954656d706572617475726552616453656e736f7200000043000000000001000000010000000009536e6f774865696768740000006d000000000001000000010000000009536e6f774865696768745175616c6974790000006d000000000001000000010000000009537572666163654865696768740000006d000000000001000000010000000009537572666163654865696768745175616c6974790000006d0000000000010000000100000000094963654865696768740000006d5600000000000100000001000000000954656d7065726174757265496365316d0000004300000000000100000001000000000954656d7065726174757265496365326d0000004300000000000100000001000000000954656d7065726174757265496365336d0000004300000000000100000001000000000954656d7065726174757265496365346d0000004300000000000100000001000000000954656d7065726174757265496365356d0000004300000000000100000001000000000954656d7065726174757265496365366d0000004300000000000100000001000000000954656d7065726174757265496365376d0000004300000000000100000001000000000954656d706572617475726549636531306d0000004300000000000100000001000000000954696c7458000000567831305e2d3200000000000100000001000000000954696c7459000000567831305e2d3200000000000100000001000000000954656d70657261747572654c6f67676572000000430000000000010000000100000000094261747465727943757272656e74000000000000000001000000010000000009536f6c617250616e656c43757272656e7400000000000000000100000001000000000946616e43757272656e740000006d41000000000001000000010000000009547847505343757272656e740000006d41000000000001000000010000000009566f6c746167654261747465726965730000005600000000000100000001000000000b47504747410000000000000000010000001000000010000000000b54696d654750530000000000000000010000001000000010000000000b4c617469747564650000000000000000010000001000000010000000000b48656d697370686572654e530000000000000000010000001000000010000000000b4c6f6e6769747564650000000000000000010000001000000010000000000b48656d6973706865726545570000000000000000010000001000000010000000000b5175616c6974790000000000000000010000001000000010000000000b4e756d626572536174656c6c697465730000000000000000010000001000000010000000000b48444f500000000000000000010000001000000010000000000b416c7469747564650000000000000000010000001000000010000000000b416c746974756465556e69740000000000000000010000001000000010000000000b47696f64616c0000000000000000010000001000000010000000000b47656f556e69740000000000000000010000001000000010000000000b4167650000000000000000010000001000000010000000000b4469667265660000000000000000010000001000000010000000000b417374657269736b0000000000000000010000001000000010000000000b4368636b73756d0000000000000000010000001000000010000000000b43524c460000000000000000010000001000000010000000001c466173745363616e4d6f646500000000000000000100000001000000001c466173745363616e537769746368000000000000000001000000010000000009466173745363616e436f756e740000000000000000010000000100000000094c617374466173745363616e00000000000000000100000001000000000941697250726573737572654d696e757331303030000000685061000000000001000000010000000009566f6c74616765426174746572696573496e690000005600000000000100000001000000000b57696e746572446174615465726d696e61746f720000000000000000010000001000000010000000000b53756d6d6572446174615465726d696e61746f720000000000000000010000001000000010000000000b496e7374616e74446174615465726d696e61746f720000000000000000010000001000000010000000000b446961676e446174615465726d696e61746f720000000000000000010000001000000010000000001c5478416c6c6f77656400000000000000000100000001000000001c46616e506f776572447565466f7253774f666600000000000000000100000001000000000b5461626c65496e7374616e74616e656f7573537472696e670000000000000000010000013000000130000000001c5478506f776572447565466f7253774f666600000000000000000100000001000000001c4761726d696e496e69744f6b000000000000000001000000010000000006436f6e66696746696c655f48000000000000000001000000010000000009436f6e6669674172726179495400000000000000000100000001000000001c4e475053464c414700000000000000000100000001000000001c47475053464c414700000000000000000100000001000000001c466f72636554580000000000000000010000000100000000094c6f676765724f5372657600000000000000000100000001000000000954696d657273556e697400000000000000000100000001000000000954696d657273556e69744d756c7400000000000000000100000001000000000944696167000000000000000001000000010000000009536b69707065645363616e73000000000000000001000000010000000009536b6970706564536c6f775363616e7331000000000000000001000000010000000009536b6970706564536c6f775363616e733200000000000000000100000001000000000b475053696e5573650000000000000000010000000400000004000000000954696d6553696e63653132566f6e00000000000000000100000001000000000954696d6553696e63655678336f6e0000000000000000010000000100000000094c6173745375636365737366756c4d4f4d534e00000000000000000100000001000000000953656e645265636f72644261636b6c6f6700000000000000000100000001000000000953656e645265636f72644954000000000000000001000000010000000009547854696d6554616b656e000000000000000001000000010000000009547853656e64417474656d707473000000000000000001000000010000000009547854696d656f757454696d65720000000000000000010000000100000000095478496e6974696c697a65417474656d7074000000000000000001000000010000000009534244496f666673657400000000000000000100000001000000000b5342444973656e74656e63650000000000000000010000002c0000002c000000000b53424449706172736564000000000000000001000000600000000600000010000000001c53424473657373696f6e00000000000000000100000001000000001c5478496e697469616c697a654f6b000000000000000001000000010000000009537472496e64657800000000000000000100000001000000001c547853656e645375636365737300000000000000000100000001000000000953656e74576974685375636365737300000000000000000100000001000000001c54784d4f62756666436c656172656400000000000000000100000001000000001c54784d4f75706c6f6164656400000000000000000100000001000000000954785253534900000000000000000100000001000000001c5478537663417661696c00000000000000000100000001000000001c54784e6f746966794f4e00000000000000000100000001000000001c52533233324563686f4f6b00000000000000000100000001000000001c5478547970654e414c3936307800000000000000000100000001000000001c5478547970654e414c393630314447534c5000000000000000000100000001000000001c5478547970654e414c393630324c5000000000000000000100000001000000001c54784d6f64756c6541546f6b00000000000000000100000001000000001c54784d6f64756c6552466f6e00000000000000000100000001000000000b54784d6f64756c655265706c790000000000000000010000002c0000002c000000001c526573657454784275666665725461626c6544756500000000000000000100000001000000001c54784d6f64756c65475053506f7765724f6e00000000000000000100000001000000000b5478427566666572537472696e67000000000000000001000001b0000001b0000000000b5478537472696e67556e7374726970706564000000000000000001000001b0000001b0000000000b5478537472696e6700000000000000000100000158000001580000000009537472696e67537472697070657249540000000000000000010000000100000000095374726970537472696e67537461727400000000000000000100000001000000000b537472696e67436861720000000000000000010000000400000004000000001c4d6561734379636c65446f6e65000000000000000001000000010000000009433573746174757300000000000000000100000001000000000943357374617475735072657600000000000000000100000001000000000974656d7000000000000000000100000001000000001c4d50464c41470000000000000000010000000100000000064d696e75746573496e59656172000000000000000001000000010000000009596561720000000000000000010000000100000000094d6f6e74680000000000000000010000000100000000094461794f664d6f6e7468000000000000000001000000010000000009486f75720000000000000000010000000100000000094d696e7574650000000000000000010000000100000000095365636f6e64000000000000000001000000010000000009755365636f6e640000000000000000010000000100000000095765656b4461790000000000000000010000000100000000094461794f66596561720000000000000000010000000100000000094e6577436c6f636b0000000000000000010000000700000007000000000b47505354696d655374720000000000000000010000003000000003000000100000000009475053686f75720000000000000000010000000100000000094750536d696e7574650000000000000000010000000100000000094750537365636f6e6400000000000000000100000001000000001c56616c696447505374696d65000000000000000001000000010000000006436c6f636b324750534f66667365740000000000000000010000000100000000094750536d65737361676554696d657200000000000000000100000001000000001c497353756d6d657200000000000000000100000001000000001c4c6f775f4261747400000000000000000100000001000000001c4173705f66616e5f6f6e00000000000000000100000001000000001c4173706972617465645f6d65617300000000000000000100000001000000000974656d7074656d7000000000000000000100000001000000000974656d7074656d7074656d7000000000000000000100000001000000000974656d70310000000000000000010000000100000000095f4d55585245530000000000000000010000000100000000094265737448444f507365656e000000000000000001000000010000000009734265737448444f507365656e00000000000000000100000001000000000b475047474173656e74656e63650000000000000000010000004c0000004c000000000b5072655061727365537472000000000000000001000000600000001200000010000000000b5072655175616c0000000000000000010000001000000010000000000b5072655061727365537472000000000000000071000000100000001200000010000000000b50726548444f500000000000000000010000001000000010000000000b507265506172736553747200000000000000009100000090000000120000001000000000095072655175616c5f465000000000000000000100000001000000000950726548444f505f46500000000000000000010000000100000000095061727365537472495400000000000000000100000001000000000654696d655374616d705365636f6e647300000000000000000100000001000000000942696e46756e6349740000000000000000010000000100000000095374726956616c75654974000000000000000001000000010000000009446563696d616c46504e756d626572000000000000000001000000010000000009496e7465726e616c446563696d616c46504e756d6265720000000000000000010000000100000000094e6f726d446563696d616c4e756d626572000000000000000001000000010000000009474650326269747300000000000000000100000010000000100000000009474650327369676e00000000000000000100000001000000000947465032657870000000000000000001000000010000000009474650326e6f726d657870000000000000000001000000010000000006474650326d616e7400000000000000000100000001000000000972656d61696e646572000000000000000001000000010000000009556e7369676e697a6564446563696d616c4e756d62657200000000000000000100000001000000000653686966746564446563696d616c4e756d62657200000000000000000100000001000000001c474650326e6f726d616c697a6564000000000000000001000000010000000006474650326d7362000000000000000001000000010000000006474650326c736200000000000000000100000001000000000b47465032737472696e6700000000000000000100000010000000100000000006446563696d616c4c494e756d626572000000000000000001000000010000000006496e7465726e616c446563696d616c4c494e756d626572000000000000000001000000010000000006474c493442797465730000000000000000010000000400000004000000000b474c4934737472696e670000000000000000010000001000000010000000000b53706c69747465645458737472696e6700000000000000000100001008000000ab00000018000000000b42696e6172795478537472696e67000000000000000001000000cc000000cc000000000642696e617279547841727261790000000000000000010000015400000154000000000642696e61727954784172726179506f696e74657200000000000000000100000001000000000b5265616461626c655478537472696e670000000000000000010000015800000158000000000b537472696e674c6f6e67000000000000000001000000180000001800000000064c6f6e674c6f6e6700000000000000000100000001000000000b537472696e674c6f6e67496e74000000000000000001000000180000001800000000095478537472696e674c656e00000000000000000100000001000000000b74657374636d640000000000000000010000001800000018000000000b42696e6172795478466f726d61745072656669780000000000000000010000001000000010000000000642696e6172795478537562666f726d61744e756d62657200000000000000000100000001000000000953657269616c4f7574426c6f636b4974000000000000000001000000010000000009436865636b73756d497400000000000000000100000001000000000642696e6172795478537472696e6753756d00000000000000000100000001000000000b42696e6172795478537472696e67436865636b73756d0000000000000000010000001000000010000000000b6462675f74726163655f7369670000000000000000010000005400000054000000000b6462675f74726163655f7369675f62616b00000000000000000100000054000000540000000006616c7465726e6174697665535235304164647265737331000000000000000001000000010000000006616c7465726e6174697665535235304164647265737332000000000000000001000000010000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="4294967295" stamp="0" was-reset="false">
+              <records-pending />
+              <records-collected />
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="Public" /></setting>
+              <setting id="2">0</setting>
+              <setting id="15">1</setting>
+              <setting id="16">1</setting>
+              <setting id="17">%a\%s_%n.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_Public.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">9</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36" />
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="SlimTableMem" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="53973" previously-polled="false" table-no="3" time-type="14">
+              <tdf-buffer>536c696d5461626c654d656d0000003c9f0e00000000000000000000000000000000864d696e75746573496e596561720000536d700000536d70000000000100000001000000008741697250726573737572655f41766700004176670068506100417667000000000100000001000000008754656d70657261747572655f4176670000417667004300417667000000000100000001000000008754656d7065726174757265325f4176670000417667004300417667000000000100000001000000008752656c617469766548756d69646974795f4176670000417667002500417667000000000100000001000000008757696e6453706565640000575663006d2f7300575663000000000100000001000000008757696e64446972656374696f6e00005756630044656700575663000000000100000001000000008757696e64446972656374696f6e5f534400005756630044656700575663000000000100000001000000008753686f727477617665526164696174696f6e496e5f417667000041766700567831305e2d3500417667000000000100000001000000008753686f727477617665526164696174696f6e4f75745f417667000041766700567831305e2d350041766700000000010000000100000000874c6f6e6777617665526164696174696f6e496e5f417667000041766700567831305e2d350041766700000000010000000100000000874c6f6e6777617665526164696174696f6e4f75745f417667000041766700567831305e2d3500417667000000000100000001000000008754656d706572617475726552616453656e736f725f41766700004176670043004176670000000001000000010000000087536e6f774865696768740000536d70006d00536d700000000001000000010000000087536e6f774865696768745175616c6974790000536d700000536d700000000001000000010000000087537572666163654865696768740000536d70006d00536d700000000001000000010000000087537572666163654865696768745175616c6974790000536d700000536d7000000000010000000100000000874963654865696768745f4176670000417667006d5600417667000000000100000001000000008754656d7065726174757265496365316d5f4176670000417667004300417667000000000100000001000000008754656d7065726174757265496365326d5f4176670000417667004300417667000000000100000001000000008754656d7065726174757265496365336d5f4176670000417667004300417667000000000100000001000000008754656d7065726174757265496365346d5f4176670000417667004300417667000000000100000001000000008754656d7065726174757265496365356d5f4176670000417667004300417667000000000100000001000000008754656d7065726174757265496365366d5f4176670000417667004300417667000000000100000001000000008754656d7065726174757265496365376d5f4176670000417667004300417667000000000100000001000000008754656d706572617475726549636531306d5f4176670000417667004300417667000000000100000001000000008754696c74585f417667000041766700567831305e2d3200417667000000000100000001000000008754696c74595f417667000041766700567831305e2d3200417667000000000100000001000000008b54696d654750530000536d700000536d7000000000010000001000000010000000008b4c617469747564650000536d700000536d7000000000010000001000000010000000008b4c6f6e6769747564650000536d700000536d7000000000010000001000000010000000008b416c7469747564650000536d700000536d7000000000010000001000000010000000008b47696f64616c0000536d700000536d7000000000010000001000000010000000008b47656f556e69740000536d700000536d7000000000010000001000000010000000008b5175616c6974790000536d700000536d7000000000010000001000000010000000008b4e756d626572536174656c6c697465730000536d700000536d7000000000010000001000000010000000008b48444f500000536d700000536d7000000000010000001000000010000000008754656d70657261747572654c6f676765725f4176670000417667004300417667000000000100000001000000008746616e43757272656e745f4176670000417667006d41004176670000000001000000010000000087566f6c74616765426174746572696573496e690000536d70005600536d700000000001000000010000000087566f6c746167654261747465726965730000536d70005600536d700000000001000000010000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="15161" stamp="981730800000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="0" end="15161" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="SlimTableMem" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_SlimTableMem.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_SlimTableMem.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">3</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_SlimTableMem.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="Status" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="19191" previously-polled="false" table-no="1" time-type="14">
+              <tdf-buffer>53746174757300000000010e000000000000000000000000000000008b4f5356657273696f6e0000000000000000010000002000000020000000008b4f5344617465000000000000000001000000080000000800000000864f535369676e617475726500000000000000000100000001000000008b53657269616c4e756d6265720000000000000000010000000800000008000000008b526576426f6172640000000000000000010000000800000008000000000b53746174696f6e4e616d650000000000000000010000004000000040000000000650616b4275734164647265737300000000000000000100000001000000008b50726f674e616d650000000000000000010000004000000040000000008e537461727454696d650000006461746500000000000100000001000000008652756e5369676e617475726500000000000000000100000001000000008650726f675369676e617475726500000000000000000100000001000000008942617474657279000000566f6c747300000000000100000001000000008950616e656c54656d70000000446567430000000000010000000100000000065761746368646f674572726f72730000000000000000010000000100000000894c69746869756d426174746572790000000000000000010000000100000000064c6f77313256436f756e740000000000000000010000000100000000064c6f773556436f756e7400000000000000000100000001000000008b436f6d70696c65526573756c74730000000000000000010000010000000100000000008653746172745570436f646500000000000000000100000001000000008650726f674572726f72730000000000000000010000000100000000065661724f75744f66426f756e64000000000000000001000000010000000006536b69707065645363616e000000000000000001000000010000000006536b697070656453797374656d5363616e0000000000000000010000000100000000864572726f7243616c69620000000000000000010000000100000000864d656d6f727953697a6500000062797465730000000000010000000100000000864d656d6f727946726565000000627974657300000000000100000001000000008643505544726976654672656500000062797465730000000000010000000100000000865553524472697665467265650000006279746573000000000001000000010000000086436f6d6d734d656d4672656500000062797465730000000000010000000200000002000000000646756c6c4d656d526573657400000000000000000100000001000000008b446174615461626c654e616d65000000000000000001000000a800000007000000180000000006536b69707065645265636f726400000000000000000100000007000000070000000086446174615265636f726453697a650000007265636f7264730000000000010000000e0000000e000000020000000089536563735065725265636f7264000000000000000001000000070000000700000000894461746146696c6c44617973000000646179730000000000010000000e0000000e00000002000000008b4361726453746174757300000000000000000100000050000000500000000086436172644279746573467265650000000000000000010000000100000000864d6561737572654f70730000000000000000010000000100000000864d65617375726554696d650000007573656300000000000100000001000000008650726f6365737354696d65000000757365630000000000010000000100000000064d617850726f6354696d65000000757365630000000000010000000100000000864275666644657074680000007363616e730000000000010000000100000000064d61784275666644657074680000007363616e7300000000000100000001000000008e4c61737453797374656d5363616e0000006461746500000000000100000001000000008653797374656d50726f6354696d65000000757365630000000000010000000100000000064d617853797374656d50726f6354696d650000007573656300000000000100000001000000001c506f72745374617475730000000000000000010000000800000008000000008b506f7274436f6e666967000000000000000001000000400000000800000008000000001c53573132566f6c747300000000000000000100000001000000000653656375726974790000000000000000010000000300000003000000001c5253323332506f776572000000000000000001000000010000000006525332333248616e647368616b696e67000000000000000001000000010000000006525332333254696d656f757400000000000000000100000001000000001c436f6d6d416374697665525332333200000000000000000100000001000000001c436f6d6d4163746976654d4500000000000000000100000001000000001c436f6d6d416374697665434f4d33313000000000000000000100000001000000001c436f6d6d4163746976655344433700000000000000000100000001000000001c436f6d6d4163746976655344433800000000000000000100000001000000001c436f6d6d416374697665434f4d33323000000000000000000100000001000000001c436f6d6d416374697665534443313000000000000000000100000001000000001c436f6d6d416374697665534443313100000000000000000100000001000000001c436f6d6d416374697665434f4d3100000000000000000100000001000000001c436f6d6d416374697665434f4d3200000000000000000100000001000000001c436f6d6d416374697665434f4d3300000000000000000100000001000000001c436f6d6d416374697665434f4d34000000000000000001000000010000000086436f6d6d436f6e6669675253323332000000000000000001000000010000000086436f6d6d436f6e6669674d45000000000000000001000000010000000086436f6d6d436f6e666967434f4d333130000000000000000001000000010000000086436f6d6d436f6e66696753444337000000000000000001000000010000000086436f6d6d436f6e66696753444338000000000000000001000000010000000086436f6d6d436f6e666967434f4d333230000000000000000001000000010000000086436f6d6d436f6e6669675344433130000000000000000001000000010000000086436f6d6d436f6e6669675344433131000000000000000001000000010000000086436f6d6d436f6e666967434f4d31000000000000000001000000010000000086436f6d6d436f6e666967434f4d32000000000000000001000000010000000086436f6d6d436f6e666967434f4d33000000000000000001000000010000000086436f6d6d436f6e666967434f4d340000000000000000010000000100000000064261756472617465525332333200000000000000000100000001000000000642617564726174654d4500000000000000000100000001000000000642617564726174655344430000000000000000010000000100000000064261756472617465434f4d310000000000000000010000000100000000064261756472617465434f4d320000000000000000010000000100000000064261756472617465434f4d330000000000000000010000000100000000064261756472617465434f4d3400000000000000000100000001000000001c4973526f7574657200000000000000000100000001000000000650616b4275734e6f64657300000000000000000100000001000000000643656e7472616c526f757465727300000000000000000100000008000000080000000006426561636f6e525332333200000053656373000000000001000000010000000006426561636f6e4d4500000053656373000000000001000000010000000006426561636f6e5344433700000053656373000000000001000000010000000006426561636f6e5344433800000053656373000000000001000000010000000006426561636f6e534443313000000053656373000000000001000000010000000006426561636f6e534443313100000053656373000000000001000000010000000006426561636f6e434f4d3100000053656373000000000001000000010000000006426561636f6e434f4d3200000053656373000000000001000000010000000006426561636f6e434f4d3300000053656373000000000001000000010000000006426561636f6e434f4d34000000536563730000000000010000000100000000065665726966795253323332000000536563730000000000010000000100000000065665726966794d450000005365637300000000000100000001000000000656657269667953444337000000536563730000000000010000000100000000065665726966795344433800000053656373000000000001000000010000000006566572696679534443313000000053656373000000000001000000010000000006566572696679534443313100000053656373000000000001000000010000000006566572696679434f4d3100000053656373000000000001000000010000000006566572696679434f4d3200000053656373000000000001000000010000000006566572696679434f4d3300000053656373000000000001000000010000000006566572696679434f4d34000000536563730000000000010000000100000000064d61785061636b657453697a65000000000000000001000000010000000006555352447269766553697a6500000000000000000100000001000000008b4950496e666f00000000000000000100000100000001000000000006707070496e7465726661636500000000000000000100000001000000000b7070704950416464720000000000000000010000001000000010000000000b707070557365726e616d650000000000000000010000002000000020000000000b70707050617373776f72640000000000000000010000002000000020000000000b7070704469616c0000000000000000010000005000000050000000000b7070704469616c526573706f6e73650000000000000000010000001000000010000000000b4d657373616765730000000000000000010000010000000100000000008943616c4761696e0000000000000000010000001200000012000000008643616c53654f66667365740000000000000000010000001200000012000000008643616c446966664f666673657400000000000000000100000012000000120000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="4294967295" stamp="0" was-reset="false">
+              <records-pending />
+              <records-collected />
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="Status" /></setting>
+              <setting id="2">0</setting>
+              <setting id="15">1</setting>
+              <setting id="16">1</setting>
+              <setting id="17">%a\%s_%n.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_Status.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">1</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36" />
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="TableDiagnostics" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="17694" previously-polled="false" table-no="4" time-type="14">
+              <tdf-buffer>5461626c65446961676e6f7374696373000000079d0e00000000000000000000000000000000874c69746869756d426174746572790000536d700000536d7000000000010000000100000000874c6f77313256436f756e740000536d700000536d7000000000010000000100000000875478496e697469616c697a654f6b5f546f740000546f740000546f74000000000100000001000000008753656e7457697468537563636573730000536d700000536d70000000000100000001000000008753656e645265636f72644261636b6c6f670000536d700000536d70000000000100000001000000008b446961676e446174615465726d696e61746f720000536d700000536d70000000000100000010000000100000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="21" stamp="972518400000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="0" end="21" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="TableDiagnostics" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_TableDiagnostics.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_TableDiagnostics.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">4</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_TableDiagnostics.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="TableMem" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="53144" previously-polled="false" table-no="2" time-type="14">
+              <tdf-buffer>5461626c654d656d000077f26c0e00000000000000000000000000000000864d696e75746573496e596561720000536d700000536d70000000000100000001000000008941697250726573737572655f41766700004176670068506100417667000000000100000001000000008954656d70657261747572655f4176670000417667004300417667000000000100000001000000008954656d7065726174757265325f4176670000417667004300417667000000000100000001000000008952656c617469766548756d69646974795f4176670000417667002500417667000000000100000001000000008757696e6453706565640000575663006d2f7300575663000000000100000001000000008757696e64446972656374696f6e00005756630044656700575663000000000100000001000000008757696e64446972656374696f6e5f534400005756630044656700575663000000000100000001000000008953686f727477617665526164696174696f6e496e5f417667000041766700567831305e2d3500417667000000000100000001000000008953686f727477617665526164696174696f6e4f75745f417667000041766700567831305e2d350041766700000000010000000100000000894c6f6e6777617665526164696174696f6e496e5f417667000041766700567831305e2d350041766700000000010000000100000000894c6f6e6777617665526164696174696f6e4f75745f417667000041766700567831305e2d3500417667000000000100000001000000008954656d706572617475726552616453656e736f725f41766700004176670043004176670000000001000000010000000087536e6f774865696768740000536d70006d00536d700000000001000000010000000087536e6f774865696768745175616c6974790000536d700000536d700000000001000000010000000087537572666163654865696768740000536d70006d00536d700000000001000000010000000087537572666163654865696768745175616c6974790000536d700000536d7000000000010000000100000000874963654865696768745f4176670000417667006d5600417667000000000100000001000000008954656d7065726174757265496365316d5f4176670000417667004300417667000000000100000001000000008954656d7065726174757265496365326d5f4176670000417667004300417667000000000100000001000000008954656d7065726174757265496365336d5f4176670000417667004300417667000000000100000001000000008954656d7065726174757265496365346d5f4176670000417667004300417667000000000100000001000000008954656d7065726174757265496365356d5f4176670000417667004300417667000000000100000001000000008954656d7065726174757265496365366d5f4176670000417667004300417667000000000100000001000000008954656d7065726174757265496365376d5f4176670000417667004300417667000000000100000001000000008954656d706572617475726549636531306d5f4176670000417667004300417667000000000100000001000000008754696c74585f417667000041766700567831305e2d3200417667000000000100000001000000008754696c74595f417667000041766700567831305e2d3200417667000000000100000001000000008b54696d654750530000536d700000536d7000000000010000001000000010000000008b4c617469747564650000536d700000536d7000000000010000001000000010000000008b4c6f6e6769747564650000536d700000536d7000000000010000001000000010000000008b416c7469747564650000536d700000536d7000000000010000001000000010000000008b47696f64616c0000536d700000536d7000000000010000001000000010000000008b47656f556e69740000536d700000536d7000000000010000001000000010000000008b5175616c6974790000536d700000536d7000000000010000001000000010000000008b4e756d626572536174656c6c697465730000536d700000536d7000000000010000001000000010000000008b48444f500000536d700000536d7000000000010000001000000010000000008954656d70657261747572654c6f676765725f4176670000417667004300417667000000000100000001000000008746616e43757272656e745f4176670000417667006d41004176670000000001000000010000000089566f6c74616765426174746572696573496e690000536d70005600536d700000000001000000010000000089566f6c746167654261747465726965730000536d70005600536d700000000001000000010000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="90961" stamp="981730800000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="33502" end="90961" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="TableMem" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_TableMem.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_TableMem.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">2</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_TableMem.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="TableSummerTx" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="47450" previously-polled="false" table-no="5" time-type="14">
+              <tdf-buffer>5461626c6553756d6d6572547800000000010e000000000000000000000000000000008741697250726573737572655f41766700004176670068506100417667000000000100000001000000008754656d70657261747572655f4176670000417667004300417667000000000100000001000000008754656d7065726174757265325f4176670000417667004300417667000000000100000001000000008752656c617469766548756d69646974795f4176670000417667002500417667000000000100000001000000008757696e6453706565645f5756630000575663006d2f730057566300000000010000000200000002000000008753686f727477617665526164696174696f6e496e5f417667000041766700567831305e2d3500417667000000000100000001000000008753686f727477617665526164696174696f6e4f75745f417667000041766700567831305e2d350041766700000000010000000100000000874c6f6e6777617665526164696174696f6e496e5f417667000041766700567831305e2d350041766700000000010000000100000000874c6f6e6777617665526164696174696f6e4f75745f417667000041766700567831305e2d3500417667000000000100000001000000008754656d706572617475726552616453656e736f725f4176670000417667004300417667000000000100000001000000008b53756d6d6572446174615465726d696e61746f720000536d700000536d70000000000100000010000000100000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="6127" stamp="972514800000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="6127" end="6127" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="TableSummerTx" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_TableSummerTx.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_TableSummerTx.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">5</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_TableSummerTx.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="TableWinterTx" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="62130" previously-polled="false" table-no="6" time-type="14">
+              <tdf-buffer>5461626c6557696e746572547800000000010e000000000000000000000000000000008741697250726573737572655f41766700004176670068506100417667000000000100000001000000008754656d70657261747572655f4176670000417667004300417667000000000100000001000000008754656d7065726174757265325f4176670000417667004300417667000000000100000001000000008752656c617469766548756d69646974795f4176670000417667002500417667000000000100000001000000008757696e6453706565645f5756630000575663006d2f730057566300000000010000000200000002000000008753686f727477617665526164696174696f6e496e5f417667000041766700567831305e2d3500417667000000000100000001000000008753686f727477617665526164696174696f6e4f75745f417667000041766700567831305e2d350041766700000000010000000100000000874c6f6e6777617665526164696174696f6e496e5f417667000041766700567831305e2d350041766700000000010000000100000000874c6f6e6777617665526164696174696f6e4f75745f417667000041766700567831305e2d3500417667000000000100000001000000008754656d706572617475726552616453656e736f725f4176670000417667004300417667000000000100000001000000008b57696e746572446174615465726d696e61746f720000536d700000536d70000000000100000010000000100000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="374" stamp="981676800000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="374" end="374" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="TableWinterTx" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_TableWinterTx.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_TableWinterTx.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">6</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_TableWinterTx.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+          <collect-area name="TxBufferTable" persistence="2" type="7">
+            <class-bmp5-tablecollectarea logger-def-sig="16174" previously-polled="false" table-no="8" time-type="14">
+              <tdf-buffer>54784275666665725461626c6500000000640e000000000000000000000000000000008b5478427566666572537472696e670000536d700000536d700000000001000001b0000001b00000000000</tdf-buffer>
+            </class-bmp5-tablecollectarea>
+            <class-table-area holes-lost-retro="false" newest-record-no="5240" stamp="981676800000000000" was-reset="false">
+              <records-pending />
+              <records-collected>
+                <range begin="5141" end="5240" />
+              </records-collected>
+            </class-table-area>
+            <settings>
+              <setting id="1">
+                <name val="TxBufferTable" /></setting>
+              <setting id="2">1</setting>
+              <setting id="15">1</setting>
+              <setting id="16">3</setting>
+              <setting id="17">C:\Campbellsci\PC200W\HVL_TxBufferTable.dat</setting>
+              <setting id="18">10</setting>
+              <setting id="20">3</setting>
+              <setting id="21">C:\Campbellsci\PC200W\HVL_TxBufferTable.dat</setting>
+              <setting id="22">1</setting>
+              <setting id="24">1</setting>
+              <setting id="25">1</setting>
+              <setting id="26">1</setting>
+              <setting id="27">1</setting>
+              <setting id="28">3</setting>
+              <setting id="29">8</setting>
+              <setting id="30">6619599</setting>
+              <setting id="31">3</setting>
+              <setting id="32">3</setting>
+              <setting id="33">3</setting>
+              <setting id="34">3</setting>
+              <setting id="36">C:\Campbellsci\PC200W\HVL_TxBufferTable.dat</setting>
+              <setting id="37">86400000</setting></settings>
+          </collect-area>
+        </collect-areas>
+      </class-logger>
+      <class-dev error-rate="0.5818796">
+        <settings>
+          <setting base="0" enabled="false" id="1" interval="86400000" max-dev="10000" />
+          <setting id="2">0</setting>
+          <setting id="3">998</setting>
+          <setting id="4">0</setting>
+          <setting base="1990-01-01T00:00:00" id="5" interval="300000" is-on="false" prim-retry-interval="120000" prim-retry-max_count="3" sec-retry-interval="86400000" />
+          <setting id="6">0</setting>
+          <setting id="10">0</setting>
+          <setting id="13" program-name="CPU:Promice2015e.CR1" resp-code="0" results="CPU:Promice2015e.CR1 -- Compiled in SequentialMode.&#13;&#10;" when="2021-02-09T14:43:05.81" />
+          <setting id="20">0</setting>
+          <setting id="21">2</setting>
+          <setting id="22">1</setting>
+          <setting id="28">1</setting>
+          <setting id="34">2</setting>
+          <setting id="55">1</setting>
+          <setting id="56">1</setting>
+          <setting id="57">1</setting>
+          <setting id="60">10</setting>
+          <setting id="67">1</setting>
+          <setting id="68">0</setting>
+          <setting id="70">115200</setting>
+          <setting id="78">2</setting>
+          <setting id="80">1</setting>
+          <setting id="83">0</setting>
+          <setting id="86">PakBusPort</setting>
+          <setting id="89">CPU:Promice2015e.CR1</setting>
+          <setting id="90" />
+          <setting id="91">10485760</setting>
+          <setting id="92">0</setting>
+          <setting id="111">1</setting>
+          <setting id="112">0</setting>
+          <setting id="113">3600000</setting>
+          <setting id="114" />
+          <setting id="117">0</setting>
+          <setting id="118">0</setting>
+          <setting id="126">1</setting>
+          <setting id="129">0</setting>
+          <setting id="130" />
+          <setting id="133" /></settings>
+      </class-dev>
+    </device>
+  </devices>
+</lgrnet-config>

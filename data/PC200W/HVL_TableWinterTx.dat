@@ -1,0 +1,5 @@
+"TOA5","HVL","CR1000","E11924","CR1000.Std.16","CPU:Promice2015e.CR1","65241","TableWinterTx"
+"TIMESTAMP","RECORD","AirPressure_Avg","Temperature_Avg","Temperature2_Avg","RelativeHumidity_Avg","WindSpeed_WVc(1)","WindSpeed_WVc(2)","ShortwaveRadiationIn_Avg","ShortwaveRadiationOut_Avg","LongwaveRadiationIn_Avg","LongwaveRadiationOut_Avg","TemperatureRadSensor_Avg","WinterDataTerminator"
+"TS","RN","hPa","C","C","%","m/s","m/s","Vx10^-5","Vx10^-5","Vx10^-5","Vx10^-5","C",""
+"","","Avg","Avg","Avg","Avg","WVc","WVc","Avg","Avg","Avg","Avg","Avg","Smp"
+"2021-02-09 00:00:00",374,938,-11.91,28.01,51.1,0.7,53.21,53.66,40.31,-78.13,-23.76,-12.5,"!W"
