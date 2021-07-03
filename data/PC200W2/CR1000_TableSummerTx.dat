@@ -1,0 +1,7 @@
+"TOA5","CR1000","CR1000","E11924","CR1000.Std.16","CPU:Promice2015e.CR1","65241","TableSummerTx"
+"TIMESTAMP","RECORD","AirPressure_Avg","Temperature_Avg","Temperature2_Avg","RelativeHumidity_Avg","WindSpeed_WVc(1)","WindSpeed_WVc(2)","ShortwaveRadiationIn_Avg","ShortwaveRadiationOut_Avg","LongwaveRadiationIn_Avg","LongwaveRadiationOut_Avg","TemperatureRadSensor_Avg","SummerDataTerminator"
+"TS","RN","hPa","C","C","%","m/s","m/s","Vx10^-5","Vx10^-5","Vx10^-5","Vx10^-5","C",""
+"","","Avg","Avg","Avg","Avg","WVc","WVc","Avg","Avg","Avg","Avg","Avg","Smp"
+"2018-04-10 09:00:00",9,1012,9.21,49.41,67.24,0.454,229.4,687.9,54.46,-80,17.53,11.67,"!S"
+"2020-05-05 10:00:00",1962,906,-3.118,38.29,61.61,1.335,11.1,719.5,490.4,-77.98,-26.37,2.62,"!S"
+"2021-04-29 08:00:00",6592,929,-0.57,39.99,49.9,1.443,89.3,519.5,354.7,-133.5,-30.82,2.273,"!S"
